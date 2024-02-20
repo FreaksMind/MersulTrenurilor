@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<TrainsNumber>6</TrainsNumber>
+<Trains>
+    <Train name="RE1995">
+        <Route_start>Iasi</Route_start>
+        <Route_end>Bucuresti</Route_end>
+        <Departure>06:00</Departure>
+        <Arrival>12:15</Arrival>
+        <Stations>
+            <Stop Statie="Iasi" Ora_sosire="12:40" Ora_plecare="12:45"></Stop>
+            <Stop Statie="Pascani" Ora_sosire="6:40" Ora_plecare="6:45"></Stop>
+            <Stop Statie="Suceava" Ora_sosire="6:40" Ora_plecare="6:45"></Stop>
+            <Stop Statie="Gura Humorului" Ora_sosire="6:40" Ora_plecare="6:45"></Stop>
+        </Stations>
+    </Train>
+    <Train name="R3425">
+        <Route_start>B</Route_start>
+        <Route_end>E</Route_end>
+        <Departure>06:00</Departure>
+        <Arrival>09:15</Arrival>
+        <Stations>
+            <Stop Statie="A" Ora_sosire="17:40" Ora_plecare="6:45"></Stop>
+            <Stop Statie="C" Ora_sosire="19:40" Ora_plecare="6:45"></Stop>
+            <Stop Statie="D" Ora_sosire="16:59" Ora_plecare="6:45"></Stop>
+            <Stop Statie="E" Ora_sosire="6:40" Ora_plecare="6:45"></Stop>
+        </Stations>
+    </Train>
+    <Train name="IR1991">
+        <Route_start>B</Route_start>
+        <Route_end>D</Route_end>
+        <Departure>05:30</Departure>
+        <Arrival>08:05</Arrival>
+        <Stations>
+            <Stop Statie="E" Ora_sosire="19:40" Ora_plecare="6:45"></Stop>
+            <Stop Statie="A" Ora_sosire="6:40" Ora_plecare="6:45"></Stop>
+            <Stop Statie="D" Ora_sosire="6:40" Ora_plecare="6:45"></Stop>
+        </Stations>
+    </Train>
+    <Train name="RE12425">
+        <Route_start>D</Route_start>
+        <Route_end>B</Route_end>
+        <Departure>05:30</Departure>
+        <Arrival>08:05</Arrival>
+        <Stations>
+            <Stop Statie="A" Ora_sosire="6:40" Ora_plecare="6:45"></Stop>
+            <Stop Statie="E" Ora_sosire="6:40" Ora_plecare="6:45"></Stop>
+            <Stop Statie="B" Ora_sosire="6:40" Ora_plecare="6:44"></Stop>
+        </Stations>
+    </Train>
+    <Train name="IC2511">
+        <Route_start>A</Route_start>
+        <Route_end>D</Route_end>
+        <Departure>03:45</Departure>
+        <Arrival>06:10</Arrival>
+        <Stations>
+            <Stop Statie="B" Ora_sosire="6:40" Ora_plecare="6:35"></Stop>
+            <Stop Statie="C" Ora_sosire="6:40" Ora_plecare="6:45"></Stop>
+            <Stop Statie="D" Ora_sosire="6:40" Ora_plecare="6:45"></Stop>
+        </Stations>
+    </Train>
+    <Train name="R9999">
+        <Route_start>D</Route_start>
+        <Route_end>A</Route_end>
+        <Departure>03:45</Departure>
+        <Arrival>06:10</Arrival>
+        <Stations>
+            <Stop Statie="Bucuresti" Ora_sosire="12:40" Ora_plecare="16:25"></Stop>
+            <Stop Statie="Suceava" Ora_sosire="16:30" Ora_plecare="17:50"></Stop>
+            <Stop Statie="Iasi" Ora_sosire="17:55" Ora_plecare="20:00"></Stop>
+        </Stations>
+    </Train>
+</Trains>
